@@ -1,0 +1,2 @@
+client:main.c common_utils.c register_controller.c upline_user_controller.c z_chat_client_controller.c z_block_server.c msg_controller.c  z_chat_file_controller.c
+	gcc main.c common_utils.c register_controller.c upline_user_controller.c z_chat_client_controller.c z_block_server.c msg_controller.c z_chat_file_controller.c -o client -lpthread -lsqlite3
